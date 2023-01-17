@@ -77,7 +77,7 @@ export const People = () => {
     >
       {[assets.person02, assets.person03, assets.person04].map(
         (imgUrl, index) => (
-          <ImageCmp imgUrl={imgUrl} index={index} />
+          <ImageCmp key={Math.random()*100} imgUrl={imgUrl} index={index} />
         )
       )}
     </View>
@@ -99,7 +99,7 @@ export const EndDate = () => {
     >
       <Text
         style={{
-          fontFamily: FONTS.regular,
+          fontFamily: 'Roboto',
           fontSize: SIZES.small,
           color: COLORS.primary,
         }}
@@ -109,7 +109,7 @@ export const EndDate = () => {
 
       <Text
         style={{
-          fontFamily: FONTS.semiBold,
+          fontFamily:'Roboto',
           fontSize: SIZES.medium,
           color: COLORS.primary,
         }}

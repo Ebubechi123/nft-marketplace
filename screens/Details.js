@@ -7,7 +7,7 @@ import {
   StatusBar,
 } from "react-native";
 import React from "react";
-import { assets, COLORS, FONTS, SHADOWS, SIZES } from "../constants";
+import { assets, COLORS, SHADOWS, SIZES } from "../constants";
 // import { CircleButton, RecButton } from '../components/Button'
 import { SubInfo } from "../components/subinfo";
 import {
